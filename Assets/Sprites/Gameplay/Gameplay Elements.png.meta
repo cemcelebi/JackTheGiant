@@ -1,13 +1,24 @@
 fileFormatVersion: 2
 guid: 17a0951792e77964fbadccc02cb7b724
-timeCreated: 1470994709
+timeCreated: 1470996646
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: Resume Game Button
+    21300002: Life
+    21300004: Quit Game Button
+    21300006: Coin
+    21300008: Cloud1
+    21300010: Cloud 2
+    21300012: Pause Game Button
+    21300014: Cloud 3
+    21300016: Dark Cloud
+    21300018: Score UI
+    21300020: Ready To Play The Game
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     linearTexture: 0
     correctGamma: 0
     fadeOut: 0
@@ -26,11 +37,11 @@ TextureImporter:
   cubemapConvolutionSteps: 7
   cubemapConvolutionExponent: 1.5
   seamlessCubemap: 0
-  textureFormat: -1
-  maxTextureSize: 2048
+  textureFormat: -3
+  maxTextureSize: 512
   textureSettings:
     filterMode: -1
-    aniso: -1
+    aniso: 16
     mipBias: -1
     wrapMode: 1
   nPOTScale: 0
@@ -38,7 +49,7 @@ TextureImporter:
   rGBM: 0
   compressionQuality: 50
   allowsAlphaSplitting: 0
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -49,7 +60,209 @@ TextureImporter:
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: Resume Game Button
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 279
+        width: 191
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -95.5, y: 19}
+        - {x: -95.5, y: -19}
+        - {x: 93.5, y: -19}
+        - {x: 95.5, y: -18}
+        - {x: 95.5, y: 19}
+    - name: Life
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 259
+        width: 43
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5.5, y: 26}
+        - {x: -17.5, y: 12}
+        - {x: -21.5, y: 0}
+        - {x: -21.5, y: -14}
+        - {x: -7.5, y: -26}
+        - {x: 9.5, y: -26}
+        - {x: 21.5, y: -17}
+        - {x: 21.5, y: 26}
+    - name: Quit Game Button
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 241
+        width: 192
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -96, y: 18.5}
+        - {x: -96, y: -18.5}
+        - {x: 96, y: -18.5}
+        - {x: 96, y: 18.5}
+    - name: Coin
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 211
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18.5, y: 20.5}
+        - {x: -20.5, y: 16.5}
+        - {x: -20.5, y: -11.5}
+        - {x: -19.5, y: -14.5}
+        - {x: -10.5, y: -20.5}
+        - {x: 19.5, y: -20.5}
+        - {x: 20.5, y: -16.5}
+        - {x: 20.5, y: 19.5}
+        - {x: 18.5, y: 20.5}
+    - name: Cloud1
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 193
+        width: 170
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -85, y: 21.5}
+        - {x: -85, y: -8.5}
+        - {x: -68, y: -21.5}
+        - {x: 69, y: -21.5}
+        - {x: 85, y: -16.5}
+        - {x: 85, y: 21.5}
+    - name: Cloud 2
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 148
+        width: 172
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -73, y: 21.5}
+        - {x: -86, y: 13.5}
+        - {x: -86, y: -21.5}
+        - {x: 86, y: -21.5}
+        - {x: 86, y: 17.5}
+        - {x: 57, y: 21.5}
+    - name: Pause Game Button
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 147
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19, y: 20}
+        - {x: -20, y: 15}
+        - {x: -20, y: -15}
+        - {x: -16, y: -20}
+        - {x: 19, y: -20}
+        - {x: 20, y: -19}
+        - {x: 20, y: 14}
+        - {x: 17, y: 20}
+    - name: Cloud 3
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 102
+        width: 172
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -86, y: 21.5}
+        - {x: -86, y: -1.5}
+        - {x: -25, y: -21.5}
+        - {x: 28, y: -21.5}
+        - {x: 86, y: 2.5}
+        - {x: 86, y: 21.5}
+    - name: Dark Cloud
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 44
+        width: 118
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -34, y: 24.5}
+        - {x: -53, y: 13.5}
+        - {x: -59, y: 1.5}
+        - {x: -59, y: -15.5}
+        - {x: -47, y: -24.5}
+        - {x: 40, y: -24.5}
+        - {x: 59, y: -19.5}
+        - {x: 59, y: 10.5}
+        - {x: 21, y: 24.5}
+    - name: Score UI
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 53
+        width: 84
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Ready To Play The Game
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 0
+        width: 166
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 47, y: 20.5}
+        - {x: 52, y: 5.5}
+        - {x: 48, y: 13.5}
+        - {x: 43, y: 20.5}
+        - {x: 21, y: 20.5}
+        - {x: 18, y: 19.5}
+        - {x: 15, y: 20.5}
+        - {x: -41, y: 20.5}
+        - {x: -45, y: 16.5}
+        - {x: -47, y: 11.5}
+        - {x: -47, y: 4.5}
+        - {x: -47, y: 14.5}
+        - {x: -49, y: 19.5}
+        - {x: -51, y: 20.5}
+        - {x: -77, y: 20.5}
+        - {x: -81, y: 16.5}
+        - {x: -81, y: -20.5}
+        - {x: 70, y: -20.5}
+        - {x: 83, y: 3.5}
+        - {x: 83, y: 20.5}
     outline: []
   spritePackingTag: 
   userData: 
