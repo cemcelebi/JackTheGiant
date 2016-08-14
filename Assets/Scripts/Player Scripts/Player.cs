@@ -32,13 +32,25 @@ public class Player : MonoBehaviour {
         float vel = Mathf.Abs(myBody.velocity.x);
         float h = Input.GetAxisRaw("Horizontal");// this function returns -1 if "a" or "<-" keys are pressed, or 1 if "d" or "->" keys are pressed.
         if (h > 0) {
-            //going to the -> direction.
+            //going to this: -> direction.
             forceX = speed;
+            Vector3 temp = transform.localScale;
+            temp.x = 1.3f;
+            transform.localScale = temp;
+            anim.SetBool("Walk", true);
         }
         else if (h < 0) {
-            if (vel<maxVelocity) {
+            if (vel < maxVelocity) {
                 forceX = -speed;
+                Vector3 temp = transform.localScale;
+                temp.x = -1.3f;
+                transform.localScale = temp;
+                anim.SetBool("Walk", true);
+                
             }
+        }
+        else  {
+            anim.SetBool("Walk", false);
         }
         myBody.AddForce(new Vector2(forceX, 0));
     }

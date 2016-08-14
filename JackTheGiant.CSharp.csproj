@@ -69,6 +69,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\Background Scripts\BGScaler.cs" />
     <Compile Include="Assets\Scripts\Player Scripts\Player.cs" />
   </ItemGroup>
   <ItemGroup>
